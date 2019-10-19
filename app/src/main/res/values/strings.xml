@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Submision</string>
+    <string name="photo">Photo</string>
+    <string name="mouse_name">Mouse Name</string>
+    <string name="tv_price">Price</string>
+    <string name="read">Read</string>
+    <string name="desc">desc</string>
+    <string name="image_photo">image_photo</string>
+    <string name="profile">profile</string>
+    <string name="syahrul_ramadhani">Syahrul Ramadhani</string>
+    <string name="email">Syahrul Ramadhani</string>
+</resources>
