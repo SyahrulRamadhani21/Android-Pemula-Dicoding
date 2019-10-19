@@ -63,7 +63,7 @@ public class Deskripsi {
 
     static ArrayList<Mouse> getListData() {
         ArrayList<Mouse> list = new ArrayList<>();
-        for (int i = 0; i < Mousename.length; i++) {
+        for (int i = 0; i < list.size(); i++) {
             Mouse mouse = new Mouse();
             mouse.setName(Mousename[i]);
             mouse.setPrice(Price[i]);

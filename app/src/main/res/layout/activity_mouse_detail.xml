@@ -37,7 +37,7 @@
                 style="@style/TextContent.Subtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/province"
+                android:text="@string/mouse_name"
                 tools:text="Mouse" />
 
             <TextView

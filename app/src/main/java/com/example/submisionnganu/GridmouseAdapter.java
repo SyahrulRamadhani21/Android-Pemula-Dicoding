@@ -1,6 +1,5 @@
 package com.example.submisionnganu;
 
-import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,8 +21,8 @@ public class GridmouseAdapter extends RecyclerView.Adapter<GridmouseAdapter.Grid
     private ArrayList<Mouse> listMouse;
 //    private Context context;
 
-    public GridmouseAdapter(ArrayList<Mouse> listProvince) {
-        this.listMouse = listProvince;
+    public GridmouseAdapter(ArrayList<Mouse> listMouse) {
+        this.listMouse = listMouse;
     }
 
     @NonNull
@@ -36,7 +35,6 @@ public class GridmouseAdapter extends RecyclerView.Adapter<GridmouseAdapter.Grid
     @Override
     public void onBindViewHolder(@NonNull final GridViewHolder holder, final int position) {
         final Mouse mouse = listMouse.get(position);
-        Context context;
 
         Glide.with(holder.itemView.getContext())
                 .load(mouse.getPhoto())
